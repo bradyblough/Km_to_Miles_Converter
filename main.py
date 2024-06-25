@@ -16,14 +16,14 @@ def convert_km_to_miles():
         error_label.config(text="")  # Clear error message when input is valid
     else:
         result_label.config(text="0")  # Reset result label
-        error_label.config(text="Provide a number.", fg="red")  # Display error message in red
+        error_label.config(text="Provide a number.", fg="red")  # Display error 
 
 # GUI setup
 window = Tk()
 window.title("Km to Miles Converter")
-window.config(padx=50, pady=5, bg="white")  # Set background to white
+window.config(padx=50, pady=5, bg="white")  
 
-customFont = tkFont.Font(family="Helvetica", size=12)
+customFont = tkFont.Font(family="Helvetica", size=15)
 
 main_frame = Frame(window, bg="white")
 main_frame.grid(padx=1, pady=1)
